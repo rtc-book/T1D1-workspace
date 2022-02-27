@@ -1,1 +1,4 @@
 *.DS_Store
+# we ignore Eclipse's .workspace because it isn't very portable
+# however, a starter .workspace is included
+.workspace
