@@ -5,3 +5,6 @@
 1646126234807	Delete resource 'hello-world-local/Debug'
 1646126589601	Delete resource 'hello-world'
 1646126608674	Rename resource 'hello-world-local'
+1646213056480	Delete resource 'hello-world/Debug/hello-world-local.exe'
+1646213065211	Delete resource 'hello-world/Debug/main.o'
+1646213201871	Delete resource 'hello-world/Debug/hello-world.exe'
