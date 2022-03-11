@@ -3,6 +3,7 @@
 	<name>lab1</name>
 	<comment></comment>
 	<projects>
+		<project>T1</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -25,9 +26,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>C_Support</name>
+			<name>MyRio</name>
 			<type>2</type>
 			<locationURI>WORKSPACE_LOC/C%20Support%20for%20myRIO/source</locationURI>
+		</link>
+		<link>
+			<name>T1</name>
+			<type>2</type>
+			<location>Z:/D1-workspace-source/T1</location>
 		</link>
 	</linkedResources>
 </projectDescription>
