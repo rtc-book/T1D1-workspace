@@ -1,10 +1,9 @@
-23:01:20 **** Rebuild of configuration Debug for project lab2 ****
+22:21:12 **** Incremental Build of configuration Debug for project lab2 ****
 Info: Internal Builder is used for build
-arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IC:\\Users\\vagrant\\D1-workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IC:\\Users\\vagrant\\D1-workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
-arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IC:\\Users\\vagrant\\D1-workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
-arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IC:\\Users\\vagrant\\D1-workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o "C_Support\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
-arm-nilrt-linux-gnueabi-gcc "-LC:\\Users\\vagrant\\D1-workspace\\C Support for myRIO\\source" -lm -o lab2 main.o "C_Support\\NiFpga.o" "C_Support\\MyRio.o" "C_Support\\IRQConfigure.o" "..\\..\\D1_lib\\Debug\\libD1_lib_source.a" -ldl -lvisa -lpthread 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" "-LZ:\\D1-workspace-source\\D1-workspace\\T1\\Debug" -lm -o lab2 main.o "MyRio\\NiFpga.o" "MyRio\\MyRio.o" "MyRio\\IRQConfigure.o" -lT1 -ldl -lvisa -lpthread 
+main.o: In function `main':
+Z:\D1-workspace-source\D1-workspace\lab2\Debug/..\main.c:22: undefined reference to `printf_lcd'
+collect2.exe: error: ld returned 1 exit status
 
-23:01:21 Build Finished (took 1s.241ms)
+22:21:12 Build Finished (took 469ms)
 

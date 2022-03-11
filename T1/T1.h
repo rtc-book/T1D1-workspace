@@ -9,9 +9,9 @@
 #include "MyRio.h"
 #include "Encoder.h"
 
-#ifndef ME477_H_
-#define ME477_H_
-#endif /* ME477_H_ */
+#ifndef T1_H_
+#define T1_H_
+#endif /* T1_H_ */
 
 #define ENT		10
 #define	DEL		8

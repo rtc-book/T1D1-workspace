@@ -1,0 +1,10 @@
+22:55:39 **** Rebuild of configuration Debug for project project-template ****
+Info: Internal Builder is used for build
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" "-IZ:\\D1-workspace-source\\D1-workspace\\T1" -O0 -g3 -Wall -c -fmessage-length=0 -o "MyRio\\IRQConfigure.o" "..\\..\\C Support for myRIO\\source\\IRQConfigure.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" "-IZ:\\D1-workspace-source\\D1-workspace\\T1" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" "-IZ:\\D1-workspace-source\\D1-workspace\\T1" -O0 -g3 -Wall -c -fmessage-length=0 -o "MyRio\\MyRio.o" "..\\..\\C Support for myRIO\\source\\MyRio.c" 
+arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" "-IZ:\\D1-workspace-source\\D1-workspace\\T1" -O0 -g3 -Wall -c -fmessage-length=0 -o "MyRio\\NiFpga.o" "..\\..\\C Support for myRIO\\source\\NiFpga.c" 
+arm-nilrt-linux-gnueabi-gcc "-LZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" "-LZ:\\D1-workspace-source\\D1-workspace\\T1\\lib" -lm -o project-template main.o "MyRio\\NiFpga.o" "MyRio\\MyRio.o" "MyRio\\IRQConfigure.o" -ldl -lvisa -lpthread -lT1 
+
+22:55:41 Build Finished (took 1s.689ms)
+
