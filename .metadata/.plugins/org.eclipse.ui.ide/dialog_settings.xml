@@ -2,16 +2,16 @@
 <section name="Workbench">
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
-		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="Z:\D1-workspace-source\D1-workspace\T1"/>
 			<item value=""/>
+			<item value="Z:\D1-workspace-source\D1-workspace\T1"/>
 			<item value="C:\Users\vagrant\D1-workspace"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
-			<item value=""/>
 			<item value="Z:\D1-workspace-source\D1-workspace\lab-template.zip"/>
+			<item value=""/>
 		</list>
 	</section>
 </section>
