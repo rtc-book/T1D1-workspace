@@ -1,9 +1,0 @@
-22:21:12 **** Incremental Build of configuration Debug for project lab2 ****
-Info: Internal Builder is used for build
-arm-nilrt-linux-gnueabi-gcc "-LZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" "-LZ:\\D1-workspace-source\\D1-workspace\\T1\\Debug" -lm -o lab2 main.o "MyRio\\NiFpga.o" "MyRio\\MyRio.o" "MyRio\\IRQConfigure.o" -lT1 -ldl -lvisa -lpthread 
-main.o: In function `main':
-Z:\D1-workspace-source\D1-workspace\lab2\Debug/..\main.c:22: undefined reference to `printf_lcd'
-collect2.exe: error: ld returned 1 exit status
-
-22:21:12 Build Finished (took 469ms)
-

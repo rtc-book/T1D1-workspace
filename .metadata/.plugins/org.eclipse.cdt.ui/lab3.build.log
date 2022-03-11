@@ -1,8 +1,0 @@
-22:25:32 **** Incremental Build of configuration Debug for project lab3 ****
-Info: Internal Builder is used for build
-arm-nilrt-linux-gnueabi-gcc -DMyRio_1900 "-IZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c:7:16: fatal error: T1.h: No such file or directory
-compilation terminated.
-
-22:25:32 Build Finished (took 223ms)
-

@@ -1,6 +1,0 @@
-22:05:14 **** Incremental Build of configuration Debug for project lab1 ****
-Info: Internal Builder is used for build
-arm-nilrt-linux-gnueabi-gcc "-LZ:\\D1-workspace-source\\D1-workspace\\C Support for myRIO\\source" "-LZ:\\D1-workspace-source\\D1-workspace\\T1\\Debug" -lm -o lab1 main.o "MyRio\\NiFpga.o" "MyRio\\MyRio.o" "MyRio\\IRQConfigure.o" -lT1 -ldl -lvisa -lpthread 
-
-22:05:15 Build Finished (took 616ms)
-
