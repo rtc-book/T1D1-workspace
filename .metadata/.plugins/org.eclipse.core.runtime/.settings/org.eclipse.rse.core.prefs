@@ -1,4 +1,4 @@
-activeuserprofiles=DESKTOP-TFOE5SB;Team
+activeuserprofiles=DESKTOP-5Q4EOFF;DESKTOP-TFOE5SB;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=vagrant
-useridperkey=DESKTOP-TFOE5SB.Local\=vagrant;
+useridperkey=DESKTOP-5Q4EOFF.Local\=vagrant;DESKTOP-5Q4EOFF.172.22.11.2\=admin;

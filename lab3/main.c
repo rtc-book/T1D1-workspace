@@ -1,7 +1,12 @@
-/* Lab #<number> - <your name> */
+/*
+ * Lab <number>
+ * Author: <name>
+ * Date: <date>
+ * Description: <lab exercise description>
+ */
 
 /* includes */
-#include "stdio.h"
+#include <stdio.h>
 #include "MyRio.h"
 #include "T1.h"
 
@@ -13,14 +18,14 @@ int main(int argc, char **argv)
 {
 	NiFpga_Status status;
 
-    status = MyRio_Open();		    /*Open the myRIO NiFpga Session.*/
+    status = MyRio_Open();		    			// open FPGA session
     if (MyRio_IsNotSuccess(status)) return status;
 
     //my code here
-    printf("Lab #0 Hello World!\n");			// Print to Console
-    printf_lcd("\fLab #0 Hello World!\n");		// Print to LCD screen
+    printf("Lab 0 Hello World!\n");				// Print to console
+    printf_lcd("\fLab #0 Hello World!\n");		// Print to LCD display
 
-	status = MyRio_Close();	 /*Close the myRIO NiFpga Session. */
+	status = MyRio_Close();						// close FPGA session
 
 	return status;
 }

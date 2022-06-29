@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <time.h>
-#include "MyRio.h"
+#include "myRIO.h"
 
 
 /**
