@@ -19,7 +19,7 @@
 #define DN		93
 
 int	putchar_lcd(int c);
-int printf_lcd(char *format, ...);
+int printf_lcd(const char *format, ...);
 int scanf_keypad(char *format, ...);
 char getkey(void);
 int	msDelay(int tms);
