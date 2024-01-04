@@ -5,10 +5,8 @@
  *      Author: garbini
  */
 
-#ifndef CTABLE_H_
-#define CTABLE_H_
-
-#endif /* CTABLE_H_ */
+#ifndef CTABLE2_H_
+#define CTABLE2_H_
 
 #include <stdio.h>
 #include "T1.h"
@@ -19,9 +17,11 @@ typedef struct {
     double value;     // value
 } table;
 
-int		ctable2(char *TableTitle, table *t, int nval);
+int		ctable2(char *TableTitle, table *my_table, int nval);
 void	*Table_Update_Thread2(void* resource);
 void	upsub2(table *a_table);
 void    edt2();
 void    helpmsg2(void);
 void	update2();
+
+#endif /* CTABLE2_H_ */

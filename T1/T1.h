@@ -8,10 +8,17 @@
 #include "AIO.h"
 #include "MyRio.h"
 #include "Encoder.h"
+#include "ctable2.h"
+#include "DIIRQ.h"
+#include "DIO.h"
+#include "matlabfiles.h"
+#include "pwm-wrapper.h"
+#include "TimerIRQ.h"
+#include "UART.h"
+#include "Sramps.h"
 
 #ifndef T1_H_
 #define T1_H_
-#endif /* T1_H_ */
 
 #define ENT		10
 #define	DEL		8
@@ -27,5 +34,10 @@ int getchar_keypad(void);
 float	float_in(char *prompt);
 double	double_in(char *prompt);
 char * fgets_keypad(char *buf, int buflen);
-void AIO_initialize(MyRio_Aio *CI0p, MyRio_Aio *CO0p);
+void Aio_InitCI0(MyRio_Aio *CI0);
+void Aio_InitCI1(MyRio_Aio *CI1);
+void Aio_InitCO0(MyRio_Aio *CO0);
+void Aio_InitCO1(MyRio_Aio *CO1);
 NiFpga_Status	EncoderC_initialize(NiFpga_Session myrio_session, MyRio_Encoder *encC0);
+
+#endif /* T1_H_ */
