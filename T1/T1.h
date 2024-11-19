@@ -5,18 +5,6 @@
  *      Author: garbini
  */
 
-#include "AIO.h"
-#include "MyRio.h"
-#include "Encoder.h"
-#include "ctable2.h"
-#include "DIIRQ.h"
-#include "DIO.h"
-#include "matlabfiles.h"
-#include "pwm-wrapper.h"
-#include "TimerIRQ.h"
-#include "UART.h"
-#include "Sramps.h"
-
 #ifndef T1_H_
 #define T1_H_
 

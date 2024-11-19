@@ -11,6 +11,6 @@
 #include "math.h"
 typedef struct {double xfa; double v; double a; double d;} seg;
 
-int  Sramps(seg *segs, int *iseg, int nseg, int *itime, double T, double *xa);
+int  Sramps(seg *segs, int nseg, int *iseg, int *itime, double T, double *xa);
 
 #endif /* Sramps_H_ */
