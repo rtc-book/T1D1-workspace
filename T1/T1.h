@@ -8,6 +8,9 @@
 #ifndef T1_H_
 #define T1_H_
 
+#include "AIO.h"
+#include "Encoder.h"
+
 #define ENT		10
 #define	DEL		8
 #define UP		91
