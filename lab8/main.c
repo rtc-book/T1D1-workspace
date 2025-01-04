@@ -22,8 +22,8 @@ int main(int argc, char **argv)
     if (MyRio_IsNotSuccess(status)) return status;
 
     //my code here
-    printf("Lab 0 Hello World!\n");				// Print to console
-    printf_lcd("\fLab #0 Hello World!\n");		// Print to LCD display
+    printf("Hello World!\n");				// Print to console
+    printf_lcd("\fHello World!\n");		// Print to LCD display
 
 	status = MyRio_Close();						// close FPGA session
 

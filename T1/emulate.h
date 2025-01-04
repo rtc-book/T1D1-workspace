@@ -49,6 +49,8 @@
 #define EMULATE_PWM_GAIN EMULATE_KVI // Amplifier PWM input gain (A/V)
 #define EMULATE_PWM_V_LOW 0.633 // PWM input low amplifier input voltage
 #define EMULATE_PWM_V_HIGH 0.0 // PWM input high amplifier input voltage
+#else
+#error "Unknown target system!"
 #endif
 
 // substitute emulated i/o
