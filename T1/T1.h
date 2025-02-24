@@ -9,7 +9,16 @@
 #define T1_H_
 
 #include "AIO.h"
+#include "MyRio.h"
 #include "Encoder.h"
+#include "ctable2.h"
+#include "DIIRQ.h"
+#include "DIO.h"
+#include "matlabfiles.h"
+#include "pwm-wrapper.h"
+#include "TimerIRQ.h"
+#include "UART.h"
+#include "Sramps.h"
 
 #define ENT		10
 #define	DEL		8
